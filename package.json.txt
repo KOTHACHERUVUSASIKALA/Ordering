@@ -1,0 +1,32 @@
+{
+  "name": "bulk-ordering-platform",
+  "version": "1.0.0",
+  "description": "A platform to facilitate bulk vegetable/fruit orders for buyers and manage orders for admins.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "bcrypt": "^5.1.0",
+    "next": "13.4.0",
+    "next-auth": "^4.0.0",
+    "nodemailer": "^6.7.1",
+    "pg": "^8.7.1",
+    "react-bootstrap": "^2.7.0",
+    "bootstrap": "^5.1.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "8.16.0",
+    "eslint-config-next": "13.4.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
